@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+body {
+    display : table;
+    width: 100%;
+}
+
+a {
+    color: #d93832;
+}
+
+a:hover {
+    color: #591715;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container, button, footer {
+  margin-top: 20px;
+}
+
+.copy {
+    text-align: right;
+}
+
+footer {
+    position: relative;
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+    footer p, footer .copy {
+        text-align: center !important;
+    }
+}
